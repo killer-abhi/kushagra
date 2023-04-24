@@ -1,0 +1,71 @@
+.form {
+	margin-top: 5rem;
+	background-color: white;
+	width: 25rem;
+	height: 21rem;
+	font-family: "Inter";
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 4px 54px rgba(29, 29, 29, 0.05);
+	border-radius: 20px;
+}
+.form #heading {
+	width: 50%;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	background-color: inherit;
+	font-size: 1.5rem;
+	font-weight: 800;
+}
+.form input {
+	align-self: center;
+	margin-top: 2rem;
+	width: 80%;
+	height: 2.5rem;
+	padding-left: 1rem;
+	border: 1px solid rgba(196, 196, 196, 0.6);
+	background-color: white;
+	border-radius: 1rem;
+}
+.otpBtn {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	width: 8rem;
+	height: 2.5rem;
+	border-radius: 2rem;
+}
+.divider {
+	background-color: inherit;
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.googleLogin {
+	margin-top: 2rem;
+	align-self: center;
+	background-color: inherit;
+	border: 1px solid rgba(196, 196, 196, 0.6);
+	width: 80%;
+	height: 2.5rem;
+	border-radius: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.noAccount {
+	margin-left: 1rem;
+	margin-top: 1rem;
+	background-color: inherit;
+	font-size: 0.6rem;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+}
+.noAccount a{
+	background-color: inherit;
+	text-decoration: none;
+	color: blue;
+}
