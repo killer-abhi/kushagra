@@ -11,7 +11,7 @@
 }
 .btn:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: #fad6c6;
     color: #FF7A3D;
 }
 /* .btn:disabled,

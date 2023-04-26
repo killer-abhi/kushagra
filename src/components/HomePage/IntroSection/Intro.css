@@ -1,3 +1,12 @@
+.introSection{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    width: 20%;
+}
 .intro{
     margin-top: 2rem;
     width: 30rem;

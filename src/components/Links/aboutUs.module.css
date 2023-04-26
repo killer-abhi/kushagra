@@ -1,0 +1,13 @@
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+}
+.aboutUs h4{
+    margin-bottom: 1rem;
+}
+.aboutUs a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    margin-top: 0.5rem;
+}

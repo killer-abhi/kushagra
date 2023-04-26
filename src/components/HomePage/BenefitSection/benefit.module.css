@@ -1,0 +1,26 @@
+.benefit{
+    margin: 5rem auto;
+    width: 90%;
+}
+.benefit h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.benefit table{
+    margin: 2rem auto;
+    width: 80%;
+    background-color: transparent;
+}
+.benefit table tr{
+    height: 5rem;
+}
+.benefit table tr td{
+}
+.benefit table tr td p{
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 600;
+}
+.benefit table tr td img{
+}

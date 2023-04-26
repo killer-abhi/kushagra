@@ -1,4 +1,5 @@
 import "./LoginForm.css";
+import Logo from "../assests/googleLogo.png";
 import Button from "../UI/Button";
 const LoginForm = () => {
 
@@ -11,10 +12,10 @@ const LoginForm = () => {
                 or
             </div>
             <div className="googleLogin">
-                <div className="googleSvg">
-
-                </div>
-                Login With Google
+                <img src={Logo} alt="" />
+                <p>
+                    Login With Google
+                </p>
             </div>
             <div className="noAccount">
                 Don't have a account? <a href="#">  Sign Up</a>
