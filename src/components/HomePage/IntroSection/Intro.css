@@ -1,0 +1,28 @@
+.introSection{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    width: 20%;
+}
+.intro{
+    margin-top: 2rem;
+    width: 30rem;
+    font-family: 'Inter';
+}
+.intro .heading{
+    font-size: 48px;
+    font-weight: 800;
+}
+.intro .description{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.intro .followers{
+    margin-top: 1rem;
+    width: 438px;
+    height: 89px;
+}

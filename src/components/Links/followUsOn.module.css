@@ -1,0 +1,13 @@
+.links{
+    width: 15%;
+}
+.links a{
+    text-decoration: none;
+}
+.iconLinks{
+    margin-top: 1rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
