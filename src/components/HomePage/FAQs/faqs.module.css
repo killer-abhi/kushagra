@@ -1,0 +1,17 @@
+.faqSection{
+    width: 80%;
+    margin: 2rem auto;
+}
+.faqSection p{
+    text-align: center;
+    color:#FF7A3D;
+}
+.faqSection h1{
+    text-align: center;
+    font-size: 48px;
+}
+.questions{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}

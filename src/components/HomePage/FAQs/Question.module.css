@@ -1,0 +1,32 @@
+.question{
+    margin-top: 1rem;
+}
+.question hr{
+    width: 80%;
+    margin: 0.5rem auto;
+}
+.quesCard{
+    margin: 0rem auto;
+    width: 80%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.quesCard p{
+    color: black;
+    width: 80%;
+    font-weight: 400;
+    font-size: 24px;
+}
+.answer{
+    margin: 1rem auto;
+    width: 80%;
+}
+.collapseIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collapseIcon:hover{
+    cursor: pointer;
+}
