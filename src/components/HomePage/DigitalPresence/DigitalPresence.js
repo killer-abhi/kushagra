@@ -8,7 +8,7 @@ const DigitalPresence = () => {
             <div class="phone-img">
                 <img className="mobile-img" src={MobileImg} alt="image1" />
             </div>
-            <div>
+            <div className='digitalContent'>
                 <h1>Weave YOUR Digital Presence</h1>
                 <p>Attract and engage with <b>followers & <br/> customers,</b> receive <b>Feedback, Review, <br />  Rating</b> and promote your offerings</p>
                 <br />

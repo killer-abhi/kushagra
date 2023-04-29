@@ -7,13 +7,13 @@ import img5 from "../../assests/BenefitSectionImages/img5.png";
 import img6 from "../../assests/BenefitSectionImages/img6.png";
 
 
-const Benefit=()=>{
-    return(
+const Benefit = () => {
+    return (
         <div className={classes.benefit}>
             <h1>
                 Benefits to Creators & Businesses
             </h1>
-            <table cellSpacing={50}>
+            {/* <table cellSpacing={50}>
                 <tr>
                     <td>
                         <img src={img1} alt="image1" />
@@ -42,7 +42,34 @@ const Benefit=()=>{
                         <p>Offerings and <br /> Promotion</p>
                     </td>
                 </tr>
-            </table>
+            </table> */}
+
+            <div className={classes.benefitCard}>
+                <div>
+                    <img src={img1} alt="image1" />
+                    <p>Unique Digital <br /> Presence</p>
+                </div>
+                <div>
+                    <img src={img2} alt="image2" />
+                    <p>Market and <br /> Promote</p>
+                </div>
+                <div>
+                    <img src={img3} alt="image3" />
+                    <p>Attract <br /> Audience</p>
+                </div>
+                <div>
+                    <img src={img4} alt="image4" />
+                    <p>Engage <br /> Viewers</p>
+                </div>
+                <div>
+                    <img src={img5} alt="image5" />
+                    <p>Review and <br /> Rate</p>
+                </div>
+                <div>
+                    <img src={img6} alt="image6" />
+                    <p>Offerings and <br /> Promotion</p>
+                </div>
+            </div>
         </div>
 
     )

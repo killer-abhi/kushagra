@@ -1,0 +1,15 @@
+.evolveCard{
+    width: 25%;
+}
+.icon{
+    margin-top: -2rem;
+}
+.evolveCard h1{
+    font-size: 24px;
+    margin-top: 0.5rem;
+}
+.evolveCard p{
+    width: 80%;
+    margin: 0.5rem auto;
+    font-size: 18px;
+}

@@ -1,13 +1,13 @@
 .benefit{
     margin: 5rem auto;
-    width: 90%;
+    width: 100%;
 }
 .benefit h1{
     text-align: center;
     font-size: 48px;
     font-weight: 700;
 }
-.benefit table{
+/* .benefit table{
     margin: 2rem auto;
     width: 80%;
     background-color: transparent;
@@ -25,4 +25,18 @@
 .benefit table tr td img{
     width: 67px;
     height: 67px;
+} */
+.benefitCard{
+    margin: 1rem auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,40%);
+}
+.benefitCard div{
+    margin-top: 2rem;
+}
+.benefitCard div p{
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 600;
 }

@@ -14,8 +14,8 @@ const Home = () => {
             <CreateAndEvolve/>
             <DigitalPresence/>
             <ReadyBanner/>
-            <Features/>
-            <FAQs/>
+            {/* <Features/> */}
+            {/* <FAQs/> */}
         </div>
     )
 };
